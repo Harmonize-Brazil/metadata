@@ -1,0 +1,4645 @@
+{
+    "name": "temp_max_ne_mun_month",
+    "title": "temp_max_NE_mun_month_vec",
+    "description": "This is the maximum temperature aggregated by municipality and month to northeast",
+    "temporal_composition_schema": null,
+    "composition_function": null,
+    "collection_type": "climate",
+    "is_available": true,
+    "version": 1,
+    "is_public": true,
+    "category": "eo",
+    "bands": [
+        {
+            "name": "GEOTIFF",
+            "common_name": "GeoTIFF",
+            "description": "This is the data in a GeoTIFF in a Cloud Optimized GeoTIFF (COG) format",
+            "min_value": 0,
+            "max_value": 0,
+            "nodata": 0,
+            "scale": 0,
+            "data_type": "float32",
+            "mime_type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "metadata_": {
+                "eo": {
+                    "resolution_x": 0.1,
+                    "resolution_y": 0.1,
+                    "center_wavelength": null,
+                    "full_width_half_max": null,
+                    "resolution_unit": "Degree"
+                }
+            }
+        },
+        {
+            "name": "TABULAR",
+            "common_name": "tabular",
+            "description": "This is the data in a tabular format",
+            "data_type": "uint8",
+            "mime_type": "application/octet-stream",
+            "min_value": 0,
+            "max_value": 0,
+            "nodata": null,
+            "resolution_x": null,
+            "resolution_y": null,
+            "center_wavelength": null,
+            "full_width_half_max": null
+        },
+        {
+            "name": "THUMBNAIL",
+            "common_name": "thumbnail",
+            "description": "This is the quicklook of data",
+            "data_type": "uint8",
+            "mime_type": "image/png",
+            "min_value": 0,
+            "max_value": 0,
+            "nodata": null,
+            "resolution_x": null,
+            "resolution_y": null,
+            "center_wavelength": null,
+            "full_width_half_max": null
+        },
+        {
+            "name": "GEOJSON",
+            "common_name": "geojson",
+            "description": "This is the data in a geospatial format",
+            "data_type": "uint8",
+            "mime_type": "application/geo+json",
+            "min_value": 0,
+            "max_value": 0,
+            "nodata": null,
+            "resolution_x": null,
+            "resolution_y": null,
+            "center_wavelength": null,
+            "full_width_half_max": null
+        },
+        {
+            "name": "SHAPEFILE",
+            "common_name": "shapefile",
+            "description": "This is the data in a shapefile format",
+            "data_type": "uint8",
+            "mime_type": "application/zip",
+            "min_value": 0,
+            "max_value": 0,
+            "nodata": null,
+            "resolution_x": null,
+            "resolution_y": null,
+            "center_wavelength": null,
+            "full_width_half_max": null
+        }
+    ],
+    "metadata": {
+        "wms": {
+            "url": "https://brazildatacube.dpi.inpe.br/harmonize/dev/geoserver/bdc_lcc/wms",
+            "layerName": "bdc_lcc:temp_max_ne_mun_month"
+        },
+        "sources": [
+            {
+                "name": "temp_max_ne_mun_month",
+                "stacUri": "https://brazildatacube.dpi.inpe.br/harmonize/dev/stac/v1/temp_max_ne_mun_month-1",
+                "descriptionUri": "null"
+            }
+        ],
+        "datacite": {
+            "id": "temp_max_ne_mun_month",
+            "dates": [
+                {
+                    "date": "2024"
+                }
+            ],
+            "sizes": [],
+            "state": "unfindable",
+            "types": {
+                "ris": "DATA",
+                "bibtex": "misc",
+                "citeproc": "dataset",
+                "schemaOrg": "Dataset",
+                "resourceType": "Dataset",
+                "resourceTypeGeneral": "Dataset"
+            },
+            "agency": "INPE",
+            "titles": {
+                "lang": "en",
+                "title": "temp_max_ne_mun_month"
+            },
+            "formats": [],
+            "version": "1.",
+            "creators": [
+                {
+                    "@type": "ResearchGroup",
+                    "familyName": "Harmonize Team"
+                }
+            ],
+            "language": "en",
+            "subjects": [
+                {
+                    "lang": "en",
+                    "subject": "Climate"
+                },
+                {
+                    "lang": "en",
+                    "subject": "ERA5-Land"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Temperature"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Maximum temperature"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Vector"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Municipality"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Month"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Northeast"
+                },
+                {
+                    "lang": "en",
+                    "subject": "Brazil"
+                }
+            ],
+            "rightsList": [
+                {
+                    "rights": "Creative Commons Attribution 4.0 International",
+                    "rightsUri": "https://creativecommons.org/licenses/by/4.0/"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "National Institute for Space Research (INPE)",
+                    "nameType": "Organizational",
+                    "contributorType": "HostingInstitution"
+                },
+                {
+                    "name": "Harmonize Team",
+                    "contributorType": "ResearchGroup"
+                }
+            ],
+            "descriptions": [
+                {
+                    "lang": "en",
+                    "description": "This is the maximum temperature aggregated by municipality and month to northeast",
+                    "descriptionType": "Abstract"
+                }
+            ],
+            "geoLocations": [],
+            "fundingReferences": [
+                {
+                    "funderName": "FIOTEC"
+                }
+            ],
+            "relatedIdentifiers": [],
+            "providers": [
+                {
+                    "name": "Data from Era5-Land (Copernicus) produced by Raphael Saldanha (Associated Researcher / Fiocruz)",
+                    "roles": [
+                        "producer",
+                        "licensor"
+                    ],
+                    "url": "https://rfsaldanha.github.io/data-projects/era5land-daily-latin-america.html"
+                },
+                {
+                    "name": "National Institute for Space Research (INPE) - Harmonize Project",
+                    "roles": [
+                        "host",
+                        "processor"
+                    ],
+                    "url": "https://brazildatacube.dpi.inpe.br/harmonize/dev/stac/v1/collections",
+                    "processing:lineage": "Generation of spatialized climate data published on Geoserver as vector layers",
+                    "processing:level": "Vector",
+                    "processing:software": {
+                        "rclimpr": "1.0"
+                    }
+                }
+            ]
+        }
+    },
+    "items": [
+        {
+            "name": "temp_max_NE_mun_month_20190101_20190131",
+            "start_date": "2019-01-01T00:00:00",
+            "end_date": "2019-01-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-01-01/temp_max_NE_mun_month_20190101_20190131.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:38",
+                    "updated": "2024-07-02T14:36:38"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-01-01/temp_max_NE_mun_month_20190101_20190131.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:38",
+                    "updated": "2024-07-02T14:36:38"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-01-01/temp_max_NE_mun_month_20190101_20190131.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:38",
+                    "updated": "2024-07-02T14:36:38"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190201_20190228",
+            "start_date": "2019-02-01T00:00:00",
+            "end_date": "2019-02-28T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-02-01/temp_max_NE_mun_month_20190201_20190228.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:40",
+                    "updated": "2024-07-02T14:36:40"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-02-01/temp_max_NE_mun_month_20190201_20190228.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:40",
+                    "updated": "2024-07-02T14:36:40"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-02-01/temp_max_NE_mun_month_20190201_20190228.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:41",
+                    "updated": "2024-07-02T14:36:41"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190301_20190331",
+            "start_date": "2019-03-01T00:00:00",
+            "end_date": "2019-03-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-03-01/temp_max_NE_mun_month_20190301_20190331.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:43",
+                    "updated": "2024-07-02T14:36:43"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-03-01/temp_max_NE_mun_month_20190301_20190331.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:43",
+                    "updated": "2024-07-02T14:36:43"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-03-01/temp_max_NE_mun_month_20190301_20190331.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:43",
+                    "updated": "2024-07-02T14:36:43"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190401_20190430",
+            "start_date": "2019-04-01T00:00:00",
+            "end_date": "2019-04-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-04-01/temp_max_NE_mun_month_20190401_20190430.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:45",
+                    "updated": "2024-07-02T14:36:45"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-04-01/temp_max_NE_mun_month_20190401_20190430.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:45",
+                    "updated": "2024-07-02T14:36:45"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-04-01/temp_max_NE_mun_month_20190401_20190430.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:45",
+                    "updated": "2024-07-02T14:36:45"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190501_20190531",
+            "start_date": "2019-05-01T00:00:00",
+            "end_date": "2019-05-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-05-01/temp_max_NE_mun_month_20190501_20190531.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:47",
+                    "updated": "2024-07-02T14:36:47"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-05-01/temp_max_NE_mun_month_20190501_20190531.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:48",
+                    "updated": "2024-07-02T14:36:48"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-05-01/temp_max_NE_mun_month_20190501_20190531.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:48",
+                    "updated": "2024-07-02T14:36:48"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190601_20190630",
+            "start_date": "2019-06-01T00:00:00",
+            "end_date": "2019-06-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-06-01/temp_max_NE_mun_month_20190601_20190630.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:50",
+                    "updated": "2024-07-02T14:36:50"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-06-01/temp_max_NE_mun_month_20190601_20190630.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:50",
+                    "updated": "2024-07-02T14:36:50"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-06-01/temp_max_NE_mun_month_20190601_20190630.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:50",
+                    "updated": "2024-07-02T14:36:50"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190701_20190731",
+            "start_date": "2019-07-01T00:00:00",
+            "end_date": "2019-07-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-07-01/temp_max_NE_mun_month_20190701_20190731.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:52",
+                    "updated": "2024-07-02T14:36:52"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-07-01/temp_max_NE_mun_month_20190701_20190731.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:52",
+                    "updated": "2024-07-02T14:36:52"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-07-01/temp_max_NE_mun_month_20190701_20190731.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:53",
+                    "updated": "2024-07-02T14:36:53"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190801_20190831",
+            "start_date": "2019-08-01T00:00:00",
+            "end_date": "2019-08-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-08-01/temp_max_NE_mun_month_20190801_20190831.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:54",
+                    "updated": "2024-07-02T14:36:54"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-08-01/temp_max_NE_mun_month_20190801_20190831.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:36:55",
+                    "updated": "2024-07-02T14:36:55"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-08-01/temp_max_NE_mun_month_20190801_20190831.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:36:55",
+                    "updated": "2024-07-02T14:36:55"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20190901_20190930",
+            "start_date": "2019-09-01T00:00:00",
+            "end_date": "2019-09-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-09-01/temp_max_NE_mun_month_20190901_20190930.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:01",
+                    "updated": "2024-07-02T14:37:01"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-09-01/temp_max_NE_mun_month_20190901_20190930.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:02",
+                    "updated": "2024-07-02T14:37:02"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-09-01/temp_max_NE_mun_month_20190901_20190930.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:02",
+                    "updated": "2024-07-02T14:37:02"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20191001_20191031",
+            "start_date": "2019-10-01T00:00:00",
+            "end_date": "2019-10-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-10-01/temp_max_NE_mun_month_20191001_20191031.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:04",
+                    "updated": "2024-07-02T14:37:04"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-10-01/temp_max_NE_mun_month_20191001_20191031.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:04",
+                    "updated": "2024-07-02T14:37:04"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-10-01/temp_max_NE_mun_month_20191001_20191031.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:05",
+                    "updated": "2024-07-02T14:37:05"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20191101_20191130",
+            "start_date": "2019-11-01T00:00:00",
+            "end_date": "2019-11-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-11-01/temp_max_NE_mun_month_20191101_20191130.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:11",
+                    "updated": "2024-07-02T14:37:11"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-11-01/temp_max_NE_mun_month_20191101_20191130.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:12",
+                    "updated": "2024-07-02T14:37:12"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-11-01/temp_max_NE_mun_month_20191101_20191130.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:12",
+                    "updated": "2024-07-02T14:37:12"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20191201_20191231",
+            "start_date": "2019-12-01T00:00:00",
+            "end_date": "2019-12-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-12-01/temp_max_NE_mun_month_20191201_20191231.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:14",
+                    "updated": "2024-07-02T14:37:14"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-12-01/temp_max_NE_mun_month_20191201_20191231.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:14",
+                    "updated": "2024-07-02T14:37:14"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2019-12-01/temp_max_NE_mun_month_20191201_20191231.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:15",
+                    "updated": "2024-07-02T14:37:15"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200101_20200131",
+            "start_date": "2020-01-01T00:00:00",
+            "end_date": "2020-01-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-01-01/temp_max_NE_mun_month_20200101_20200131.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:17",
+                    "updated": "2024-07-02T14:37:17"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-01-01/temp_max_NE_mun_month_20200101_20200131.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:17",
+                    "updated": "2024-07-02T14:37:17"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-01-01/temp_max_NE_mun_month_20200101_20200131.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:17",
+                    "updated": "2024-07-02T14:37:17"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200201_20200229",
+            "start_date": "2020-02-01T00:00:00",
+            "end_date": "2020-02-29T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-02-01/temp_max_NE_mun_month_20200201_20200229.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:20",
+                    "updated": "2024-07-02T14:37:20"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-02-01/temp_max_NE_mun_month_20200201_20200229.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:20",
+                    "updated": "2024-07-02T14:37:20"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-02-01/temp_max_NE_mun_month_20200201_20200229.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:20",
+                    "updated": "2024-07-02T14:37:20"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200301_20200331",
+            "start_date": "2020-03-01T00:00:00",
+            "end_date": "2020-03-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-03-01/temp_max_NE_mun_month_20200301_20200331.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:22",
+                    "updated": "2024-07-02T14:37:22"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-03-01/temp_max_NE_mun_month_20200301_20200331.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:23",
+                    "updated": "2024-07-02T14:37:23"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-03-01/temp_max_NE_mun_month_20200301_20200331.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:23",
+                    "updated": "2024-07-02T14:37:23"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200401_20200430",
+            "start_date": "2020-04-01T00:00:00",
+            "end_date": "2020-04-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-04-01/temp_max_NE_mun_month_20200401_20200430.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:25",
+                    "updated": "2024-07-02T14:37:25"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-04-01/temp_max_NE_mun_month_20200401_20200430.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:25",
+                    "updated": "2024-07-02T14:37:25"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-04-01/temp_max_NE_mun_month_20200401_20200430.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:25",
+                    "updated": "2024-07-02T14:37:25"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200501_20200531",
+            "start_date": "2020-05-01T00:00:00",
+            "end_date": "2020-05-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-05-01/temp_max_NE_mun_month_20200501_20200531.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:27",
+                    "updated": "2024-07-02T14:37:27"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-05-01/temp_max_NE_mun_month_20200501_20200531.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:28",
+                    "updated": "2024-07-02T14:37:28"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-05-01/temp_max_NE_mun_month_20200501_20200531.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:28",
+                    "updated": "2024-07-02T14:37:28"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200601_20200630",
+            "start_date": "2020-06-01T00:00:00",
+            "end_date": "2020-06-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-06-01/temp_max_NE_mun_month_20200601_20200630.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:30",
+                    "updated": "2024-07-02T14:37:30"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-06-01/temp_max_NE_mun_month_20200601_20200630.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:30",
+                    "updated": "2024-07-02T14:37:30"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-06-01/temp_max_NE_mun_month_20200601_20200630.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:30",
+                    "updated": "2024-07-02T14:37:30"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200701_20200731",
+            "start_date": "2020-07-01T00:00:00",
+            "end_date": "2020-07-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-07-01/temp_max_NE_mun_month_20200701_20200731.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:32",
+                    "updated": "2024-07-02T14:37:32"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-07-01/temp_max_NE_mun_month_20200701_20200731.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:32",
+                    "updated": "2024-07-02T14:37:32"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-07-01/temp_max_NE_mun_month_20200701_20200731.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:33",
+                    "updated": "2024-07-02T14:37:33"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200801_20200831",
+            "start_date": "2020-08-01T00:00:00",
+            "end_date": "2020-08-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-08-01/temp_max_NE_mun_month_20200801_20200831.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:35",
+                    "updated": "2024-07-02T14:37:35"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-08-01/temp_max_NE_mun_month_20200801_20200831.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:35",
+                    "updated": "2024-07-02T14:37:35"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-08-01/temp_max_NE_mun_month_20200801_20200831.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:35",
+                    "updated": "2024-07-02T14:37:35"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20200901_20200930",
+            "start_date": "2020-09-01T00:00:00",
+            "end_date": "2020-09-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-09-01/temp_max_NE_mun_month_20200901_20200930.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:37",
+                    "updated": "2024-07-02T14:37:37"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-09-01/temp_max_NE_mun_month_20200901_20200930.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:37",
+                    "updated": "2024-07-02T14:37:37"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-09-01/temp_max_NE_mun_month_20200901_20200930.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:37",
+                    "updated": "2024-07-02T14:37:37"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20201001_20201031",
+            "start_date": "2020-10-01T00:00:00",
+            "end_date": "2020-10-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-10-01/temp_max_NE_mun_month_20201001_20201031.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:39",
+                    "updated": "2024-07-02T14:37:39"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-10-01/temp_max_NE_mun_month_20201001_20201031.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:40",
+                    "updated": "2024-07-02T14:37:40"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-10-01/temp_max_NE_mun_month_20201001_20201031.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:40",
+                    "updated": "2024-07-02T14:37:40"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20201101_20201130",
+            "start_date": "2020-11-01T00:00:00",
+            "end_date": "2020-11-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-11-01/temp_max_NE_mun_month_20201101_20201130.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:42",
+                    "updated": "2024-07-02T14:37:42"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-11-01/temp_max_NE_mun_month_20201101_20201130.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:42",
+                    "updated": "2024-07-02T14:37:42"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-11-01/temp_max_NE_mun_month_20201101_20201130.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:42",
+                    "updated": "2024-07-02T14:37:42"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20201201_20201231",
+            "start_date": "2020-12-01T00:00:00",
+            "end_date": "2020-12-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-12-01/temp_max_NE_mun_month_20201201_20201231.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:44",
+                    "updated": "2024-07-02T14:37:44"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-12-01/temp_max_NE_mun_month_20201201_20201231.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:44",
+                    "updated": "2024-07-02T14:37:44"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2020-12-01/temp_max_NE_mun_month_20201201_20201231.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:44",
+                    "updated": "2024-07-02T14:37:44"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210101_20210131",
+            "start_date": "2021-01-01T00:00:00",
+            "end_date": "2021-01-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-01-01/temp_max_NE_mun_month_20210101_20210131.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:46",
+                    "updated": "2024-07-02T14:37:46"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-01-01/temp_max_NE_mun_month_20210101_20210131.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:46",
+                    "updated": "2024-07-02T14:37:46"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-01-01/temp_max_NE_mun_month_20210101_20210131.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:47",
+                    "updated": "2024-07-02T14:37:47"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210201_20210228",
+            "start_date": "2021-02-01T00:00:00",
+            "end_date": "2021-02-28T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-02-01/temp_max_NE_mun_month_20210201_20210228.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:49",
+                    "updated": "2024-07-02T14:37:49"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-02-01/temp_max_NE_mun_month_20210201_20210228.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:49",
+                    "updated": "2024-07-02T14:37:49"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-02-01/temp_max_NE_mun_month_20210201_20210228.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:49",
+                    "updated": "2024-07-02T14:37:49"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210301_20210331",
+            "start_date": "2021-03-01T00:00:00",
+            "end_date": "2021-03-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-03-01/temp_max_NE_mun_month_20210301_20210331.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:51",
+                    "updated": "2024-07-02T14:37:51"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-03-01/temp_max_NE_mun_month_20210301_20210331.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:51",
+                    "updated": "2024-07-02T14:37:51"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-03-01/temp_max_NE_mun_month_20210301_20210331.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:51",
+                    "updated": "2024-07-02T14:37:51"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210401_20210430",
+            "start_date": "2021-04-01T00:00:00",
+            "end_date": "2021-04-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-04-01/temp_max_NE_mun_month_20210401_20210430.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:53",
+                    "updated": "2024-07-02T14:37:53"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-04-01/temp_max_NE_mun_month_20210401_20210430.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:53",
+                    "updated": "2024-07-02T14:37:53"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-04-01/temp_max_NE_mun_month_20210401_20210430.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:54",
+                    "updated": "2024-07-02T14:37:54"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210501_20210531",
+            "start_date": "2021-05-01T00:00:00",
+            "end_date": "2021-05-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-05-01/temp_max_NE_mun_month_20210501_20210531.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:56",
+                    "updated": "2024-07-02T14:37:56"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-05-01/temp_max_NE_mun_month_20210501_20210531.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:56",
+                    "updated": "2024-07-02T14:37:56"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-05-01/temp_max_NE_mun_month_20210501_20210531.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:56",
+                    "updated": "2024-07-02T14:37:56"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210601_20210630",
+            "start_date": "2021-06-01T00:00:00",
+            "end_date": "2021-06-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-06-01/temp_max_NE_mun_month_20210601_20210630.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:58",
+                    "updated": "2024-07-02T14:37:58"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-06-01/temp_max_NE_mun_month_20210601_20210630.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:37:58",
+                    "updated": "2024-07-02T14:37:58"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-06-01/temp_max_NE_mun_month_20210601_20210630.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:37:59",
+                    "updated": "2024-07-02T14:37:59"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210701_20210731",
+            "start_date": "2021-07-01T00:00:00",
+            "end_date": "2021-07-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-07-01/temp_max_NE_mun_month_20210701_20210731.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:00",
+                    "updated": "2024-07-02T14:38:00"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-07-01/temp_max_NE_mun_month_20210701_20210731.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:01",
+                    "updated": "2024-07-02T14:38:01"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-07-01/temp_max_NE_mun_month_20210701_20210731.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:01",
+                    "updated": "2024-07-02T14:38:01"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210801_20210831",
+            "start_date": "2021-08-01T00:00:00",
+            "end_date": "2021-08-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-08-01/temp_max_NE_mun_month_20210801_20210831.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:03",
+                    "updated": "2024-07-02T14:38:03"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-08-01/temp_max_NE_mun_month_20210801_20210831.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:03",
+                    "updated": "2024-07-02T14:38:03"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-08-01/temp_max_NE_mun_month_20210801_20210831.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:03",
+                    "updated": "2024-07-02T14:38:03"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20210901_20210930",
+            "start_date": "2021-09-01T00:00:00",
+            "end_date": "2021-09-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-09-01/temp_max_NE_mun_month_20210901_20210930.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:05",
+                    "updated": "2024-07-02T14:38:05"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-09-01/temp_max_NE_mun_month_20210901_20210930.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:05",
+                    "updated": "2024-07-02T14:38:05"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-09-01/temp_max_NE_mun_month_20210901_20210930.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:06",
+                    "updated": "2024-07-02T14:38:06"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20211001_20211031",
+            "start_date": "2021-10-01T00:00:00",
+            "end_date": "2021-10-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-10-01/temp_max_NE_mun_month_20211001_20211031.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:08",
+                    "updated": "2024-07-02T14:38:08"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-10-01/temp_max_NE_mun_month_20211001_20211031.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:08",
+                    "updated": "2024-07-02T14:38:08"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-10-01/temp_max_NE_mun_month_20211001_20211031.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:08",
+                    "updated": "2024-07-02T14:38:08"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20211101_20211130",
+            "start_date": "2021-11-01T00:00:00",
+            "end_date": "2021-11-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-11-01/temp_max_NE_mun_month_20211101_20211130.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:10",
+                    "updated": "2024-07-02T14:38:10"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-11-01/temp_max_NE_mun_month_20211101_20211130.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:10",
+                    "updated": "2024-07-02T14:38:10"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-11-01/temp_max_NE_mun_month_20211101_20211130.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:10",
+                    "updated": "2024-07-02T14:38:10"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20211201_20211231",
+            "start_date": "2021-12-01T00:00:00",
+            "end_date": "2021-12-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-12-01/temp_max_NE_mun_month_20211201_20211231.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:12",
+                    "updated": "2024-07-02T14:38:12"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-12-01/temp_max_NE_mun_month_20211201_20211231.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:12",
+                    "updated": "2024-07-02T14:38:12"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2021-12-01/temp_max_NE_mun_month_20211201_20211231.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:13",
+                    "updated": "2024-07-02T14:38:13"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220101_20220131",
+            "start_date": "2022-01-01T00:00:00",
+            "end_date": "2022-01-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-01-01/temp_max_NE_mun_month_20220101_20220131.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:15",
+                    "updated": "2024-07-02T14:38:15"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-01-01/temp_max_NE_mun_month_20220101_20220131.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:15",
+                    "updated": "2024-07-02T14:38:15"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-01-01/temp_max_NE_mun_month_20220101_20220131.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:15",
+                    "updated": "2024-07-02T14:38:15"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220201_20220228",
+            "start_date": "2022-02-01T00:00:00",
+            "end_date": "2022-02-28T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-02-01/temp_max_NE_mun_month_20220201_20220228.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:17",
+                    "updated": "2024-07-02T14:38:17"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-02-01/temp_max_NE_mun_month_20220201_20220228.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:17",
+                    "updated": "2024-07-02T14:38:17"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-02-01/temp_max_NE_mun_month_20220201_20220228.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:17",
+                    "updated": "2024-07-02T14:38:17"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220301_20220331",
+            "start_date": "2022-03-01T00:00:00",
+            "end_date": "2022-03-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-03-01/temp_max_NE_mun_month_20220301_20220331.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:19",
+                    "updated": "2024-07-02T14:38:19"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-03-01/temp_max_NE_mun_month_20220301_20220331.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:20",
+                    "updated": "2024-07-02T14:38:20"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-03-01/temp_max_NE_mun_month_20220301_20220331.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:20",
+                    "updated": "2024-07-02T14:38:20"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220401_20220430",
+            "start_date": "2022-04-01T00:00:00",
+            "end_date": "2022-04-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-04-01/temp_max_NE_mun_month_20220401_20220430.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:22",
+                    "updated": "2024-07-02T14:38:22"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-04-01/temp_max_NE_mun_month_20220401_20220430.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:22",
+                    "updated": "2024-07-02T14:38:22"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-04-01/temp_max_NE_mun_month_20220401_20220430.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:22",
+                    "updated": "2024-07-02T14:38:22"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220501_20220531",
+            "start_date": "2022-05-01T00:00:00",
+            "end_date": "2022-05-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-05-01/temp_max_NE_mun_month_20220501_20220531.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:24",
+                    "updated": "2024-07-02T14:38:24"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-05-01/temp_max_NE_mun_month_20220501_20220531.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:24",
+                    "updated": "2024-07-02T14:38:24"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-05-01/temp_max_NE_mun_month_20220501_20220531.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:24",
+                    "updated": "2024-07-02T14:38:24"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220601_20220630",
+            "start_date": "2022-06-01T00:00:00",
+            "end_date": "2022-06-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-06-01/temp_max_NE_mun_month_20220601_20220630.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:26",
+                    "updated": "2024-07-02T14:38:26"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-06-01/temp_max_NE_mun_month_20220601_20220630.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:27",
+                    "updated": "2024-07-02T14:38:27"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-06-01/temp_max_NE_mun_month_20220601_20220630.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:27",
+                    "updated": "2024-07-02T14:38:27"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220701_20220731",
+            "start_date": "2022-07-01T00:00:00",
+            "end_date": "2022-07-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-07-01/temp_max_NE_mun_month_20220701_20220731.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:29",
+                    "updated": "2024-07-02T14:38:29"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-07-01/temp_max_NE_mun_month_20220701_20220731.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:29",
+                    "updated": "2024-07-02T14:38:29"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-07-01/temp_max_NE_mun_month_20220701_20220731.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:29",
+                    "updated": "2024-07-02T14:38:29"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220801_20220831",
+            "start_date": "2022-08-01T00:00:00",
+            "end_date": "2022-08-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-08-01/temp_max_NE_mun_month_20220801_20220831.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:31",
+                    "updated": "2024-07-02T14:38:31"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-08-01/temp_max_NE_mun_month_20220801_20220831.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:31",
+                    "updated": "2024-07-02T14:38:31"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-08-01/temp_max_NE_mun_month_20220801_20220831.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:32",
+                    "updated": "2024-07-02T14:38:32"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20220901_20220930",
+            "start_date": "2022-09-01T00:00:00",
+            "end_date": "2022-09-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-09-01/temp_max_NE_mun_month_20220901_20220930.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:33",
+                    "updated": "2024-07-02T14:38:33"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-09-01/temp_max_NE_mun_month_20220901_20220930.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:34",
+                    "updated": "2024-07-02T14:38:34"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-09-01/temp_max_NE_mun_month_20220901_20220930.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:34",
+                    "updated": "2024-07-02T14:38:34"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20221001_20221031",
+            "start_date": "2022-10-01T00:00:00",
+            "end_date": "2022-10-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-10-01/temp_max_NE_mun_month_20221001_20221031.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:36",
+                    "updated": "2024-07-02T14:38:36"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-10-01/temp_max_NE_mun_month_20221001_20221031.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:36",
+                    "updated": "2024-07-02T14:38:36"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-10-01/temp_max_NE_mun_month_20221001_20221031.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:36",
+                    "updated": "2024-07-02T14:38:36"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20221101_20221130",
+            "start_date": "2022-11-01T00:00:00",
+            "end_date": "2022-11-30T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-11-01/temp_max_NE_mun_month_20221101_20221130.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:38",
+                    "updated": "2024-07-02T14:38:38"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-11-01/temp_max_NE_mun_month_20221101_20221130.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:39",
+                    "updated": "2024-07-02T14:38:39"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-11-01/temp_max_NE_mun_month_20221101_20221130.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:39",
+                    "updated": "2024-07-02T14:38:39"
+                }
+            },
+            "additional_path": "dev"
+        },
+        {
+            "name": "temp_max_NE_mun_month_20221201_20221231",
+            "start_date": "2022-12-01T00:00:00",
+            "end_date": "2022-12-31T00:00:00",
+            "srid": 4326,
+            "is_available": true,
+            "cloud_cover": 0,
+            "bbox": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -6.688974429999966
+                        ],
+                        [
+                            -35.60514950299993,
+                            -7.482309266999962
+                        ],
+                        [
+                            -37.869363702999976,
+                            -7.482309266999962
+                        ]
+                    ]
+                ]
+            },
+            "assets": {
+                "geojson": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-12-01/temp_max_NE_mun_month_20221201_20221231.geojson",
+                    "type": "application/geo+json",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:41",
+                    "updated": "2024-07-02T14:38:41"
+                },
+                "thumbnail": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-12-01/temp_max_NE_mun_month_20221201_20221231.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "created": "2024-07-02T14:38:41",
+                    "updated": "2024-07-02T14:38:41"
+                },
+                "shapefile": {
+                    "href": "dev/data/climate_indicators/era5land/temperature_era5land/temp_max_NE_mun_month/shapefiles/2022-12-01/temp_max_NE_mun_month_20221201_20221231.zip",
+                    "type": "application/zip",
+                    "roles": [
+                        "data"
+                    ],
+                    "created": "2024-07-02T14:38:41",
+                    "updated": "2024-07-02T14:38:41"
+                }
+            },
+            "additional_path": "dev"
+        }
+    ]
+}
