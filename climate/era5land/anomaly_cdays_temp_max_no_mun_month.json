@@ -293,8 +293,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:14",
-                    "updated": "2024-07-02T18:01:14"
+                    "created": "2024-07-03T16:38:41",
+                    "updated": "2024-07-03T16:38:41"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-01-01/anomaly_cdays_temp_max_NO_mun_month_20190101_20190131.png",
@@ -302,8 +302,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:14",
-                    "updated": "2024-07-02T18:01:14"
+                    "created": "2024-07-03T16:38:41",
+                    "updated": "2024-07-03T16:38:41"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-01-01/anomaly_cdays_temp_max_NO_mun_month_20190101_20190131.zip",
@@ -311,8 +311,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:14",
-                    "updated": "2024-07-02T18:01:14"
+                    "created": "2024-07-03T16:38:42",
+                    "updated": "2024-07-03T16:38:42"
                 }
             },
             "additional_path": "dev"
@@ -385,8 +385,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:16",
-                    "updated": "2024-07-02T18:01:16"
+                    "created": "2024-07-03T16:38:43",
+                    "updated": "2024-07-03T16:38:43"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-02-01/anomaly_cdays_temp_max_NO_mun_month_20190201_20190228.png",
@@ -394,8 +394,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:16",
-                    "updated": "2024-07-02T18:01:16"
+                    "created": "2024-07-03T16:38:43",
+                    "updated": "2024-07-03T16:38:43"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-02-01/anomaly_cdays_temp_max_NO_mun_month_20190201_20190228.zip",
@@ -403,8 +403,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:16",
-                    "updated": "2024-07-02T18:01:16"
+                    "created": "2024-07-03T16:38:43",
+                    "updated": "2024-07-03T16:38:43"
                 }
             },
             "additional_path": "dev"
@@ -477,8 +477,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:18",
-                    "updated": "2024-07-02T18:01:18"
+                    "created": "2024-07-03T16:38:45",
+                    "updated": "2024-07-03T16:38:45"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-03-01/anomaly_cdays_temp_max_NO_mun_month_20190301_20190331.png",
@@ -486,8 +486,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:18",
-                    "updated": "2024-07-02T18:01:18"
+                    "created": "2024-07-03T16:38:45",
+                    "updated": "2024-07-03T16:38:45"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-03-01/anomaly_cdays_temp_max_NO_mun_month_20190301_20190331.zip",
@@ -495,8 +495,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:18",
-                    "updated": "2024-07-02T18:01:18"
+                    "created": "2024-07-03T16:38:45",
+                    "updated": "2024-07-03T16:38:45"
                 }
             },
             "additional_path": "dev"
@@ -569,8 +569,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:20",
-                    "updated": "2024-07-02T18:01:20"
+                    "created": "2024-07-03T16:38:47",
+                    "updated": "2024-07-03T16:38:47"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-04-01/anomaly_cdays_temp_max_NO_mun_month_20190401_20190430.png",
@@ -578,8 +578,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:20",
-                    "updated": "2024-07-02T18:01:20"
+                    "created": "2024-07-03T16:38:47",
+                    "updated": "2024-07-03T16:38:47"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-04-01/anomaly_cdays_temp_max_NO_mun_month_20190401_20190430.zip",
@@ -587,8 +587,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:21",
-                    "updated": "2024-07-02T18:01:21"
+                    "created": "2024-07-03T16:38:47",
+                    "updated": "2024-07-03T16:38:47"
                 }
             },
             "additional_path": "dev"
@@ -661,8 +661,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:22",
-                    "updated": "2024-07-02T18:01:22"
+                    "created": "2024-07-03T16:38:48",
+                    "updated": "2024-07-03T16:38:48"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-05-01/anomaly_cdays_temp_max_NO_mun_month_20190501_20190531.png",
@@ -670,8 +670,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:23",
-                    "updated": "2024-07-02T18:01:23"
+                    "created": "2024-07-03T16:38:49",
+                    "updated": "2024-07-03T16:38:49"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-05-01/anomaly_cdays_temp_max_NO_mun_month_20190501_20190531.zip",
@@ -679,8 +679,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:23",
-                    "updated": "2024-07-02T18:01:23"
+                    "created": "2024-07-03T16:38:49",
+                    "updated": "2024-07-03T16:38:49"
                 }
             },
             "additional_path": "dev"
@@ -753,8 +753,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:24",
-                    "updated": "2024-07-02T18:01:24"
+                    "created": "2024-07-03T16:38:50",
+                    "updated": "2024-07-03T16:38:50"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-06-01/anomaly_cdays_temp_max_NO_mun_month_20190601_20190630.png",
@@ -762,8 +762,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:25",
-                    "updated": "2024-07-02T18:01:25"
+                    "created": "2024-07-03T16:38:50",
+                    "updated": "2024-07-03T16:38:50"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-06-01/anomaly_cdays_temp_max_NO_mun_month_20190601_20190630.zip",
@@ -771,8 +771,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:25",
-                    "updated": "2024-07-02T18:01:25"
+                    "created": "2024-07-03T16:38:50",
+                    "updated": "2024-07-03T16:38:50"
                 }
             },
             "additional_path": "dev"
@@ -845,8 +845,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:26",
-                    "updated": "2024-07-02T18:01:26"
+                    "created": "2024-07-03T16:38:52",
+                    "updated": "2024-07-03T16:38:52"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-07-01/anomaly_cdays_temp_max_NO_mun_month_20190701_20190731.png",
@@ -854,8 +854,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:27",
-                    "updated": "2024-07-02T18:01:27"
+                    "created": "2024-07-03T16:38:52",
+                    "updated": "2024-07-03T16:38:52"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-07-01/anomaly_cdays_temp_max_NO_mun_month_20190701_20190731.zip",
@@ -863,8 +863,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:27",
-                    "updated": "2024-07-02T18:01:27"
+                    "created": "2024-07-03T16:38:52",
+                    "updated": "2024-07-03T16:38:52"
                 }
             },
             "additional_path": "dev"
@@ -937,8 +937,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:29",
-                    "updated": "2024-07-02T18:01:29"
+                    "created": "2024-07-03T16:38:54",
+                    "updated": "2024-07-03T16:38:54"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-08-01/anomaly_cdays_temp_max_NO_mun_month_20190801_20190831.png",
@@ -946,8 +946,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:29",
-                    "updated": "2024-07-02T18:01:29"
+                    "created": "2024-07-03T16:38:54",
+                    "updated": "2024-07-03T16:38:54"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-08-01/anomaly_cdays_temp_max_NO_mun_month_20190801_20190831.zip",
@@ -955,8 +955,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:29",
-                    "updated": "2024-07-02T18:01:29"
+                    "created": "2024-07-03T16:38:54",
+                    "updated": "2024-07-03T16:38:54"
                 }
             },
             "additional_path": "dev"
@@ -1029,8 +1029,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:31",
-                    "updated": "2024-07-02T18:01:31"
+                    "created": "2024-07-03T16:38:56",
+                    "updated": "2024-07-03T16:38:56"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-09-01/anomaly_cdays_temp_max_NO_mun_month_20190901_20190930.png",
@@ -1038,8 +1038,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:31",
-                    "updated": "2024-07-02T18:01:31"
+                    "created": "2024-07-03T16:38:56",
+                    "updated": "2024-07-03T16:38:56"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-09-01/anomaly_cdays_temp_max_NO_mun_month_20190901_20190930.zip",
@@ -1047,8 +1047,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:31",
-                    "updated": "2024-07-02T18:01:31"
+                    "created": "2024-07-03T16:38:56",
+                    "updated": "2024-07-03T16:38:56"
                 }
             },
             "additional_path": "dev"
@@ -1121,8 +1121,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:33",
-                    "updated": "2024-07-02T18:01:33"
+                    "created": "2024-07-03T16:38:58",
+                    "updated": "2024-07-03T16:38:58"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-10-01/anomaly_cdays_temp_max_NO_mun_month_20191001_20191031.png",
@@ -1130,8 +1130,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:33",
-                    "updated": "2024-07-02T18:01:33"
+                    "created": "2024-07-03T16:38:58",
+                    "updated": "2024-07-03T16:38:58"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-10-01/anomaly_cdays_temp_max_NO_mun_month_20191001_20191031.zip",
@@ -1139,8 +1139,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:33",
-                    "updated": "2024-07-02T18:01:33"
+                    "created": "2024-07-03T16:38:58",
+                    "updated": "2024-07-03T16:38:58"
                 }
             },
             "additional_path": "dev"
@@ -1213,8 +1213,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:35",
-                    "updated": "2024-07-02T18:01:35"
+                    "created": "2024-07-03T16:39:00",
+                    "updated": "2024-07-03T16:39:00"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-11-01/anomaly_cdays_temp_max_NO_mun_month_20191101_20191130.png",
@@ -1222,8 +1222,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:35",
-                    "updated": "2024-07-02T18:01:35"
+                    "created": "2024-07-03T16:39:00",
+                    "updated": "2024-07-03T16:39:00"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-11-01/anomaly_cdays_temp_max_NO_mun_month_20191101_20191130.zip",
@@ -1231,8 +1231,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:35",
-                    "updated": "2024-07-02T18:01:35"
+                    "created": "2024-07-03T16:39:00",
+                    "updated": "2024-07-03T16:39:00"
                 }
             },
             "additional_path": "dev"
@@ -1305,8 +1305,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:37",
-                    "updated": "2024-07-02T18:01:37"
+                    "created": "2024-07-03T16:39:02",
+                    "updated": "2024-07-03T16:39:02"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-12-01/anomaly_cdays_temp_max_NO_mun_month_20191201_20191231.png",
@@ -1314,8 +1314,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:37",
-                    "updated": "2024-07-02T18:01:37"
+                    "created": "2024-07-03T16:39:02",
+                    "updated": "2024-07-03T16:39:02"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2019-12-01/anomaly_cdays_temp_max_NO_mun_month_20191201_20191231.zip",
@@ -1323,8 +1323,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:37",
-                    "updated": "2024-07-02T18:01:37"
+                    "created": "2024-07-03T16:39:02",
+                    "updated": "2024-07-03T16:39:02"
                 }
             },
             "additional_path": "dev"
@@ -1397,8 +1397,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:39",
-                    "updated": "2024-07-02T18:01:39"
+                    "created": "2024-07-03T16:39:03",
+                    "updated": "2024-07-03T16:39:03"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-01-01/anomaly_cdays_temp_max_NO_mun_month_20200101_20200131.png",
@@ -1406,8 +1406,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:39",
-                    "updated": "2024-07-02T18:01:39"
+                    "created": "2024-07-03T16:39:04",
+                    "updated": "2024-07-03T16:39:04"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-01-01/anomaly_cdays_temp_max_NO_mun_month_20200101_20200131.zip",
@@ -1415,8 +1415,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:39",
-                    "updated": "2024-07-02T18:01:39"
+                    "created": "2024-07-03T16:39:04",
+                    "updated": "2024-07-03T16:39:04"
                 }
             },
             "additional_path": "dev"
@@ -1489,8 +1489,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:41",
-                    "updated": "2024-07-02T18:01:41"
+                    "created": "2024-07-03T16:39:06",
+                    "updated": "2024-07-03T16:39:06"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-02-01/anomaly_cdays_temp_max_NO_mun_month_20200201_20200229.png",
@@ -1498,8 +1498,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:41",
-                    "updated": "2024-07-02T18:01:41"
+                    "created": "2024-07-03T16:39:06",
+                    "updated": "2024-07-03T16:39:06"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-02-01/anomaly_cdays_temp_max_NO_mun_month_20200201_20200229.zip",
@@ -1507,8 +1507,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:41",
-                    "updated": "2024-07-02T18:01:41"
+                    "created": "2024-07-03T16:39:06",
+                    "updated": "2024-07-03T16:39:06"
                 }
             },
             "additional_path": "dev"
@@ -1581,8 +1581,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:43",
-                    "updated": "2024-07-02T18:01:43"
+                    "created": "2024-07-03T16:39:08",
+                    "updated": "2024-07-03T16:39:08"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-03-01/anomaly_cdays_temp_max_NO_mun_month_20200301_20200331.png",
@@ -1590,8 +1590,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:43",
-                    "updated": "2024-07-02T18:01:43"
+                    "created": "2024-07-03T16:39:08",
+                    "updated": "2024-07-03T16:39:08"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-03-01/anomaly_cdays_temp_max_NO_mun_month_20200301_20200331.zip",
@@ -1599,8 +1599,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:43",
-                    "updated": "2024-07-02T18:01:43"
+                    "created": "2024-07-03T16:39:08",
+                    "updated": "2024-07-03T16:39:08"
                 }
             },
             "additional_path": "dev"
@@ -1673,8 +1673,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:45",
-                    "updated": "2024-07-02T18:01:45"
+                    "created": "2024-07-03T16:39:11",
+                    "updated": "2024-07-03T16:39:11"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-04-01/anomaly_cdays_temp_max_NO_mun_month_20200401_20200430.png",
@@ -1682,8 +1682,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:45",
-                    "updated": "2024-07-02T18:01:45"
+                    "created": "2024-07-03T16:39:12",
+                    "updated": "2024-07-03T16:39:12"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-04-01/anomaly_cdays_temp_max_NO_mun_month_20200401_20200430.zip",
@@ -1691,8 +1691,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:45",
-                    "updated": "2024-07-02T18:01:45"
+                    "created": "2024-07-03T16:39:12",
+                    "updated": "2024-07-03T16:39:12"
                 }
             },
             "additional_path": "dev"
@@ -1765,8 +1765,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:47",
-                    "updated": "2024-07-02T18:01:47"
+                    "created": "2024-07-03T16:39:17",
+                    "updated": "2024-07-03T16:39:17"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-05-01/anomaly_cdays_temp_max_NO_mun_month_20200501_20200531.png",
@@ -1774,8 +1774,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:47",
-                    "updated": "2024-07-02T18:01:47"
+                    "created": "2024-07-03T16:39:17",
+                    "updated": "2024-07-03T16:39:17"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-05-01/anomaly_cdays_temp_max_NO_mun_month_20200501_20200531.zip",
@@ -1783,8 +1783,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:47",
-                    "updated": "2024-07-02T18:01:47"
+                    "created": "2024-07-03T16:39:17",
+                    "updated": "2024-07-03T16:39:17"
                 }
             },
             "additional_path": "dev"
@@ -1857,8 +1857,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:49",
-                    "updated": "2024-07-02T18:01:49"
+                    "created": "2024-07-03T16:39:19",
+                    "updated": "2024-07-03T16:39:19"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-06-01/anomaly_cdays_temp_max_NO_mun_month_20200601_20200630.png",
@@ -1866,8 +1866,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:49",
-                    "updated": "2024-07-02T18:01:49"
+                    "created": "2024-07-03T16:39:19",
+                    "updated": "2024-07-03T16:39:19"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-06-01/anomaly_cdays_temp_max_NO_mun_month_20200601_20200630.zip",
@@ -1875,8 +1875,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:49",
-                    "updated": "2024-07-02T18:01:49"
+                    "created": "2024-07-03T16:39:20",
+                    "updated": "2024-07-03T16:39:20"
                 }
             },
             "additional_path": "dev"
@@ -1949,8 +1949,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:51",
-                    "updated": "2024-07-02T18:01:51"
+                    "created": "2024-07-03T16:39:26",
+                    "updated": "2024-07-03T16:39:26"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-07-01/anomaly_cdays_temp_max_NO_mun_month_20200701_20200731.png",
@@ -1958,8 +1958,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:51",
-                    "updated": "2024-07-02T18:01:51"
+                    "created": "2024-07-03T16:39:26",
+                    "updated": "2024-07-03T16:39:26"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-07-01/anomaly_cdays_temp_max_NO_mun_month_20200701_20200731.zip",
@@ -1967,8 +1967,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:51",
-                    "updated": "2024-07-02T18:01:51"
+                    "created": "2024-07-03T16:39:26",
+                    "updated": "2024-07-03T16:39:26"
                 }
             },
             "additional_path": "dev"
@@ -2041,8 +2041,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:53",
-                    "updated": "2024-07-02T18:01:53"
+                    "created": "2024-07-03T16:39:28",
+                    "updated": "2024-07-03T16:39:28"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-08-01/anomaly_cdays_temp_max_NO_mun_month_20200801_20200831.png",
@@ -2050,8 +2050,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:53",
-                    "updated": "2024-07-02T18:01:53"
+                    "created": "2024-07-03T16:39:28",
+                    "updated": "2024-07-03T16:39:28"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-08-01/anomaly_cdays_temp_max_NO_mun_month_20200801_20200831.zip",
@@ -2059,8 +2059,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:53",
-                    "updated": "2024-07-02T18:01:53"
+                    "created": "2024-07-03T16:39:29",
+                    "updated": "2024-07-03T16:39:29"
                 }
             },
             "additional_path": "dev"
@@ -2133,8 +2133,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:55",
-                    "updated": "2024-07-02T18:01:55"
+                    "created": "2024-07-03T16:39:30",
+                    "updated": "2024-07-03T16:39:30"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-09-01/anomaly_cdays_temp_max_NO_mun_month_20200901_20200930.png",
@@ -2142,8 +2142,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:55",
-                    "updated": "2024-07-02T18:01:55"
+                    "created": "2024-07-03T16:39:31",
+                    "updated": "2024-07-03T16:39:31"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-09-01/anomaly_cdays_temp_max_NO_mun_month_20200901_20200930.zip",
@@ -2151,8 +2151,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:55",
-                    "updated": "2024-07-02T18:01:55"
+                    "created": "2024-07-03T16:39:31",
+                    "updated": "2024-07-03T16:39:31"
                 }
             },
             "additional_path": "dev"
@@ -2225,8 +2225,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:57",
-                    "updated": "2024-07-02T18:01:57"
+                    "created": "2024-07-03T16:39:33",
+                    "updated": "2024-07-03T16:39:33"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-10-01/anomaly_cdays_temp_max_NO_mun_month_20201001_20201031.png",
@@ -2234,8 +2234,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:57",
-                    "updated": "2024-07-02T18:01:57"
+                    "created": "2024-07-03T16:39:33",
+                    "updated": "2024-07-03T16:39:33"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-10-01/anomaly_cdays_temp_max_NO_mun_month_20201001_20201031.zip",
@@ -2243,8 +2243,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:57",
-                    "updated": "2024-07-02T18:01:57"
+                    "created": "2024-07-03T16:39:33",
+                    "updated": "2024-07-03T16:39:33"
                 }
             },
             "additional_path": "dev"
@@ -2317,8 +2317,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:59",
-                    "updated": "2024-07-02T18:01:59"
+                    "created": "2024-07-03T16:39:35",
+                    "updated": "2024-07-03T16:39:35"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-11-01/anomaly_cdays_temp_max_NO_mun_month_20201101_20201130.png",
@@ -2326,8 +2326,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:01:59",
-                    "updated": "2024-07-02T18:01:59"
+                    "created": "2024-07-03T16:39:35",
+                    "updated": "2024-07-03T16:39:35"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-11-01/anomaly_cdays_temp_max_NO_mun_month_20201101_20201130.zip",
@@ -2335,8 +2335,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:01:59",
-                    "updated": "2024-07-02T18:01:59"
+                    "created": "2024-07-03T16:39:35",
+                    "updated": "2024-07-03T16:39:35"
                 }
             },
             "additional_path": "dev"
@@ -2409,8 +2409,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:01",
-                    "updated": "2024-07-02T18:02:01"
+                    "created": "2024-07-03T16:39:37",
+                    "updated": "2024-07-03T16:39:37"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-12-01/anomaly_cdays_temp_max_NO_mun_month_20201201_20201231.png",
@@ -2418,8 +2418,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:01",
-                    "updated": "2024-07-02T18:02:01"
+                    "created": "2024-07-03T16:39:37",
+                    "updated": "2024-07-03T16:39:37"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2020-12-01/anomaly_cdays_temp_max_NO_mun_month_20201201_20201231.zip",
@@ -2427,8 +2427,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:01",
-                    "updated": "2024-07-02T18:02:01"
+                    "created": "2024-07-03T16:39:37",
+                    "updated": "2024-07-03T16:39:37"
                 }
             },
             "additional_path": "dev"
@@ -2501,8 +2501,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:03",
-                    "updated": "2024-07-02T18:02:03"
+                    "created": "2024-07-03T16:39:39",
+                    "updated": "2024-07-03T16:39:39"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-01-01/anomaly_cdays_temp_max_NO_mun_month_20210101_20210131.png",
@@ -2510,8 +2510,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:03",
-                    "updated": "2024-07-02T18:02:03"
+                    "created": "2024-07-03T16:39:39",
+                    "updated": "2024-07-03T16:39:39"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-01-01/anomaly_cdays_temp_max_NO_mun_month_20210101_20210131.zip",
@@ -2519,8 +2519,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:03",
-                    "updated": "2024-07-02T18:02:03"
+                    "created": "2024-07-03T16:39:39",
+                    "updated": "2024-07-03T16:39:39"
                 }
             },
             "additional_path": "dev"
@@ -2593,8 +2593,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:05",
-                    "updated": "2024-07-02T18:02:05"
+                    "created": "2024-07-03T16:39:41",
+                    "updated": "2024-07-03T16:39:41"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-02-01/anomaly_cdays_temp_max_NO_mun_month_20210201_20210228.png",
@@ -2602,8 +2602,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:05",
-                    "updated": "2024-07-02T18:02:05"
+                    "created": "2024-07-03T16:39:41",
+                    "updated": "2024-07-03T16:39:41"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-02-01/anomaly_cdays_temp_max_NO_mun_month_20210201_20210228.zip",
@@ -2611,8 +2611,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:06",
-                    "updated": "2024-07-02T18:02:06"
+                    "created": "2024-07-03T16:39:41",
+                    "updated": "2024-07-03T16:39:41"
                 }
             },
             "additional_path": "dev"
@@ -2685,8 +2685,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:07",
-                    "updated": "2024-07-02T18:02:07"
+                    "created": "2024-07-03T16:39:43",
+                    "updated": "2024-07-03T16:39:43"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-03-01/anomaly_cdays_temp_max_NO_mun_month_20210301_20210331.png",
@@ -2694,8 +2694,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:07",
-                    "updated": "2024-07-02T18:02:07"
+                    "created": "2024-07-03T16:39:43",
+                    "updated": "2024-07-03T16:39:43"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-03-01/anomaly_cdays_temp_max_NO_mun_month_20210301_20210331.zip",
@@ -2703,8 +2703,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:08",
-                    "updated": "2024-07-02T18:02:08"
+                    "created": "2024-07-03T16:39:43",
+                    "updated": "2024-07-03T16:39:43"
                 }
             },
             "additional_path": "dev"
@@ -2777,8 +2777,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:09",
-                    "updated": "2024-07-02T18:02:09"
+                    "created": "2024-07-03T16:39:45",
+                    "updated": "2024-07-03T16:39:45"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-04-01/anomaly_cdays_temp_max_NO_mun_month_20210401_20210430.png",
@@ -2786,8 +2786,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:09",
-                    "updated": "2024-07-02T18:02:09"
+                    "created": "2024-07-03T16:39:45",
+                    "updated": "2024-07-03T16:39:45"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-04-01/anomaly_cdays_temp_max_NO_mun_month_20210401_20210430.zip",
@@ -2795,8 +2795,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:10",
-                    "updated": "2024-07-02T18:02:10"
+                    "created": "2024-07-03T16:39:45",
+                    "updated": "2024-07-03T16:39:45"
                 }
             },
             "additional_path": "dev"
@@ -2869,8 +2869,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:11",
-                    "updated": "2024-07-02T18:02:11"
+                    "created": "2024-07-03T16:39:47",
+                    "updated": "2024-07-03T16:39:47"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-05-01/anomaly_cdays_temp_max_NO_mun_month_20210501_20210531.png",
@@ -2878,8 +2878,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:11",
-                    "updated": "2024-07-02T18:02:11"
+                    "created": "2024-07-03T16:39:47",
+                    "updated": "2024-07-03T16:39:47"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-05-01/anomaly_cdays_temp_max_NO_mun_month_20210501_20210531.zip",
@@ -2887,8 +2887,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:12",
-                    "updated": "2024-07-02T18:02:12"
+                    "created": "2024-07-03T16:39:47",
+                    "updated": "2024-07-03T16:39:47"
                 }
             },
             "additional_path": "dev"
@@ -2961,8 +2961,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:13",
-                    "updated": "2024-07-02T18:02:13"
+                    "created": "2024-07-03T16:39:49",
+                    "updated": "2024-07-03T16:39:49"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-06-01/anomaly_cdays_temp_max_NO_mun_month_20210601_20210630.png",
@@ -2970,8 +2970,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:13",
-                    "updated": "2024-07-02T18:02:13"
+                    "created": "2024-07-03T16:39:49",
+                    "updated": "2024-07-03T16:39:49"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-06-01/anomaly_cdays_temp_max_NO_mun_month_20210601_20210630.zip",
@@ -2979,8 +2979,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:14",
-                    "updated": "2024-07-02T18:02:14"
+                    "created": "2024-07-03T16:39:49",
+                    "updated": "2024-07-03T16:39:49"
                 }
             },
             "additional_path": "dev"
@@ -3053,8 +3053,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:15",
-                    "updated": "2024-07-02T18:02:15"
+                    "created": "2024-07-03T16:39:51",
+                    "updated": "2024-07-03T16:39:51"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-07-01/anomaly_cdays_temp_max_NO_mun_month_20210701_20210731.png",
@@ -3062,8 +3062,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:15",
-                    "updated": "2024-07-02T18:02:15"
+                    "created": "2024-07-03T16:39:51",
+                    "updated": "2024-07-03T16:39:51"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-07-01/anomaly_cdays_temp_max_NO_mun_month_20210701_20210731.zip",
@@ -3071,8 +3071,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:16",
-                    "updated": "2024-07-02T18:02:16"
+                    "created": "2024-07-03T16:39:51",
+                    "updated": "2024-07-03T16:39:51"
                 }
             },
             "additional_path": "dev"
@@ -3145,8 +3145,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:17",
-                    "updated": "2024-07-02T18:02:17"
+                    "created": "2024-07-03T16:39:53",
+                    "updated": "2024-07-03T16:39:53"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-08-01/anomaly_cdays_temp_max_NO_mun_month_20210801_20210831.png",
@@ -3154,8 +3154,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:17",
-                    "updated": "2024-07-02T18:02:17"
+                    "created": "2024-07-03T16:39:53",
+                    "updated": "2024-07-03T16:39:53"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-08-01/anomaly_cdays_temp_max_NO_mun_month_20210801_20210831.zip",
@@ -3163,8 +3163,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:18",
-                    "updated": "2024-07-02T18:02:18"
+                    "created": "2024-07-03T16:39:53",
+                    "updated": "2024-07-03T16:39:53"
                 }
             },
             "additional_path": "dev"
@@ -3237,8 +3237,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:19",
-                    "updated": "2024-07-02T18:02:19"
+                    "created": "2024-07-03T16:39:55",
+                    "updated": "2024-07-03T16:39:55"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-09-01/anomaly_cdays_temp_max_NO_mun_month_20210901_20210930.png",
@@ -3246,8 +3246,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:19",
-                    "updated": "2024-07-02T18:02:19"
+                    "created": "2024-07-03T16:39:55",
+                    "updated": "2024-07-03T16:39:55"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-09-01/anomaly_cdays_temp_max_NO_mun_month_20210901_20210930.zip",
@@ -3255,8 +3255,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:20",
-                    "updated": "2024-07-02T18:02:20"
+                    "created": "2024-07-03T16:39:55",
+                    "updated": "2024-07-03T16:39:55"
                 }
             },
             "additional_path": "dev"
@@ -3329,8 +3329,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:21",
-                    "updated": "2024-07-02T18:02:21"
+                    "created": "2024-07-03T16:39:57",
+                    "updated": "2024-07-03T16:39:57"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-10-01/anomaly_cdays_temp_max_NO_mun_month_20211001_20211031.png",
@@ -3338,8 +3338,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:21",
-                    "updated": "2024-07-02T18:02:21"
+                    "created": "2024-07-03T16:39:57",
+                    "updated": "2024-07-03T16:39:57"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-10-01/anomaly_cdays_temp_max_NO_mun_month_20211001_20211031.zip",
@@ -3347,8 +3347,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:22",
-                    "updated": "2024-07-02T18:02:22"
+                    "created": "2024-07-03T16:39:57",
+                    "updated": "2024-07-03T16:39:57"
                 }
             },
             "additional_path": "dev"
@@ -3421,8 +3421,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:23",
-                    "updated": "2024-07-02T18:02:23"
+                    "created": "2024-07-03T16:39:59",
+                    "updated": "2024-07-03T16:39:59"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-11-01/anomaly_cdays_temp_max_NO_mun_month_20211101_20211130.png",
@@ -3430,8 +3430,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:23",
-                    "updated": "2024-07-02T18:02:23"
+                    "created": "2024-07-03T16:39:59",
+                    "updated": "2024-07-03T16:39:59"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-11-01/anomaly_cdays_temp_max_NO_mun_month_20211101_20211130.zip",
@@ -3439,8 +3439,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:24",
-                    "updated": "2024-07-02T18:02:24"
+                    "created": "2024-07-03T16:39:59",
+                    "updated": "2024-07-03T16:39:59"
                 }
             },
             "additional_path": "dev"
@@ -3513,8 +3513,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:25",
-                    "updated": "2024-07-02T18:02:25"
+                    "created": "2024-07-03T16:40:00",
+                    "updated": "2024-07-03T16:40:00"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-12-01/anomaly_cdays_temp_max_NO_mun_month_20211201_20211231.png",
@@ -3522,8 +3522,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:26",
-                    "updated": "2024-07-02T18:02:26"
+                    "created": "2024-07-03T16:40:01",
+                    "updated": "2024-07-03T16:40:01"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2021-12-01/anomaly_cdays_temp_max_NO_mun_month_20211201_20211231.zip",
@@ -3531,8 +3531,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:26",
-                    "updated": "2024-07-02T18:02:26"
+                    "created": "2024-07-03T16:40:01",
+                    "updated": "2024-07-03T16:40:01"
                 }
             },
             "additional_path": "dev"
@@ -3605,8 +3605,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:27",
-                    "updated": "2024-07-02T18:02:27"
+                    "created": "2024-07-03T16:40:02",
+                    "updated": "2024-07-03T16:40:02"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-01-01/anomaly_cdays_temp_max_NO_mun_month_20220101_20220131.png",
@@ -3614,8 +3614,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:28",
-                    "updated": "2024-07-02T18:02:28"
+                    "created": "2024-07-03T16:40:03",
+                    "updated": "2024-07-03T16:40:03"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-01-01/anomaly_cdays_temp_max_NO_mun_month_20220101_20220131.zip",
@@ -3623,8 +3623,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:28",
-                    "updated": "2024-07-02T18:02:28"
+                    "created": "2024-07-03T16:40:03",
+                    "updated": "2024-07-03T16:40:03"
                 }
             },
             "additional_path": "dev"
@@ -3697,8 +3697,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:29",
-                    "updated": "2024-07-02T18:02:29"
+                    "created": "2024-07-03T16:40:04",
+                    "updated": "2024-07-03T16:40:04"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-02-01/anomaly_cdays_temp_max_NO_mun_month_20220201_20220228.png",
@@ -3706,8 +3706,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:30",
-                    "updated": "2024-07-02T18:02:30"
+                    "created": "2024-07-03T16:40:05",
+                    "updated": "2024-07-03T16:40:05"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-02-01/anomaly_cdays_temp_max_NO_mun_month_20220201_20220228.zip",
@@ -3715,8 +3715,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:30",
-                    "updated": "2024-07-02T18:02:30"
+                    "created": "2024-07-03T16:40:05",
+                    "updated": "2024-07-03T16:40:05"
                 }
             },
             "additional_path": "dev"
@@ -3789,8 +3789,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:31",
-                    "updated": "2024-07-02T18:02:31"
+                    "created": "2024-07-03T16:40:06",
+                    "updated": "2024-07-03T16:40:06"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-03-01/anomaly_cdays_temp_max_NO_mun_month_20220301_20220331.png",
@@ -3798,8 +3798,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:32",
-                    "updated": "2024-07-02T18:02:32"
+                    "created": "2024-07-03T16:40:06",
+                    "updated": "2024-07-03T16:40:06"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-03-01/anomaly_cdays_temp_max_NO_mun_month_20220301_20220331.zip",
@@ -3807,8 +3807,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:32",
-                    "updated": "2024-07-02T18:02:32"
+                    "created": "2024-07-03T16:40:07",
+                    "updated": "2024-07-03T16:40:07"
                 }
             },
             "additional_path": "dev"
@@ -3881,8 +3881,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:33",
-                    "updated": "2024-07-02T18:02:33"
+                    "created": "2024-07-03T16:40:08",
+                    "updated": "2024-07-03T16:40:08"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-04-01/anomaly_cdays_temp_max_NO_mun_month_20220401_20220430.png",
@@ -3890,8 +3890,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:34",
-                    "updated": "2024-07-02T18:02:34"
+                    "created": "2024-07-03T16:40:08",
+                    "updated": "2024-07-03T16:40:08"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-04-01/anomaly_cdays_temp_max_NO_mun_month_20220401_20220430.zip",
@@ -3899,8 +3899,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:34",
-                    "updated": "2024-07-02T18:02:34"
+                    "created": "2024-07-03T16:40:09",
+                    "updated": "2024-07-03T16:40:09"
                 }
             },
             "additional_path": "dev"
@@ -3973,8 +3973,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:35",
-                    "updated": "2024-07-02T18:02:35"
+                    "created": "2024-07-03T16:40:10",
+                    "updated": "2024-07-03T16:40:10"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-05-01/anomaly_cdays_temp_max_NO_mun_month_20220501_20220531.png",
@@ -3982,8 +3982,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:36",
-                    "updated": "2024-07-02T18:02:36"
+                    "created": "2024-07-03T16:40:10",
+                    "updated": "2024-07-03T16:40:10"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-05-01/anomaly_cdays_temp_max_NO_mun_month_20220501_20220531.zip",
@@ -3991,8 +3991,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:36",
-                    "updated": "2024-07-02T18:02:36"
+                    "created": "2024-07-03T16:40:10",
+                    "updated": "2024-07-03T16:40:10"
                 }
             },
             "additional_path": "dev"
@@ -4065,8 +4065,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:37",
-                    "updated": "2024-07-02T18:02:37"
+                    "created": "2024-07-03T16:40:12",
+                    "updated": "2024-07-03T16:40:12"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-06-01/anomaly_cdays_temp_max_NO_mun_month_20220601_20220630.png",
@@ -4074,8 +4074,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:38",
-                    "updated": "2024-07-02T18:02:38"
+                    "created": "2024-07-03T16:40:12",
+                    "updated": "2024-07-03T16:40:12"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-06-01/anomaly_cdays_temp_max_NO_mun_month_20220601_20220630.zip",
@@ -4083,8 +4083,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:38",
-                    "updated": "2024-07-02T18:02:38"
+                    "created": "2024-07-03T16:40:12",
+                    "updated": "2024-07-03T16:40:12"
                 }
             },
             "additional_path": "dev"
@@ -4157,8 +4157,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:39",
-                    "updated": "2024-07-02T18:02:39"
+                    "created": "2024-07-03T16:40:14",
+                    "updated": "2024-07-03T16:40:14"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-07-01/anomaly_cdays_temp_max_NO_mun_month_20220701_20220731.png",
@@ -4166,8 +4166,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:40",
-                    "updated": "2024-07-02T18:02:40"
+                    "created": "2024-07-03T16:40:14",
+                    "updated": "2024-07-03T16:40:14"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-07-01/anomaly_cdays_temp_max_NO_mun_month_20220701_20220731.zip",
@@ -4175,8 +4175,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:40",
-                    "updated": "2024-07-02T18:02:40"
+                    "created": "2024-07-03T16:40:14",
+                    "updated": "2024-07-03T16:40:14"
                 }
             },
             "additional_path": "dev"
@@ -4249,8 +4249,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:41",
-                    "updated": "2024-07-02T18:02:41"
+                    "created": "2024-07-03T16:40:16",
+                    "updated": "2024-07-03T16:40:16"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-08-01/anomaly_cdays_temp_max_NO_mun_month_20220801_20220831.png",
@@ -4258,8 +4258,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:42",
-                    "updated": "2024-07-02T18:02:42"
+                    "created": "2024-07-03T16:40:16",
+                    "updated": "2024-07-03T16:40:16"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-08-01/anomaly_cdays_temp_max_NO_mun_month_20220801_20220831.zip",
@@ -4267,8 +4267,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:42",
-                    "updated": "2024-07-02T18:02:42"
+                    "created": "2024-07-03T16:40:16",
+                    "updated": "2024-07-03T16:40:16"
                 }
             },
             "additional_path": "dev"
@@ -4341,8 +4341,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:44",
-                    "updated": "2024-07-02T18:02:44"
+                    "created": "2024-07-03T16:40:17",
+                    "updated": "2024-07-03T16:40:17"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-09-01/anomaly_cdays_temp_max_NO_mun_month_20220901_20220930.png",
@@ -4350,8 +4350,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:44",
-                    "updated": "2024-07-02T18:02:44"
+                    "created": "2024-07-03T16:40:18",
+                    "updated": "2024-07-03T16:40:18"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-09-01/anomaly_cdays_temp_max_NO_mun_month_20220901_20220930.zip",
@@ -4359,8 +4359,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:44",
-                    "updated": "2024-07-02T18:02:44"
+                    "created": "2024-07-03T16:40:18",
+                    "updated": "2024-07-03T16:40:18"
                 }
             },
             "additional_path": "dev"
@@ -4433,8 +4433,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:45",
-                    "updated": "2024-07-02T18:02:45"
+                    "created": "2024-07-03T16:40:19",
+                    "updated": "2024-07-03T16:40:19"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-10-01/anomaly_cdays_temp_max_NO_mun_month_20221001_20221031.png",
@@ -4442,8 +4442,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:46",
-                    "updated": "2024-07-02T18:02:46"
+                    "created": "2024-07-03T16:40:19",
+                    "updated": "2024-07-03T16:40:19"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-10-01/anomaly_cdays_temp_max_NO_mun_month_20221001_20221031.zip",
@@ -4451,8 +4451,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:46",
-                    "updated": "2024-07-02T18:02:46"
+                    "created": "2024-07-03T16:40:20",
+                    "updated": "2024-07-03T16:40:20"
                 }
             },
             "additional_path": "dev"
@@ -4525,8 +4525,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:48",
-                    "updated": "2024-07-02T18:02:48"
+                    "created": "2024-07-03T16:40:21",
+                    "updated": "2024-07-03T16:40:21"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-11-01/anomaly_cdays_temp_max_NO_mun_month_20221101_20221130.png",
@@ -4534,8 +4534,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:48",
-                    "updated": "2024-07-02T18:02:48"
+                    "created": "2024-07-03T16:40:21",
+                    "updated": "2024-07-03T16:40:21"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-11-01/anomaly_cdays_temp_max_NO_mun_month_20221101_20221130.zip",
@@ -4543,8 +4543,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:48",
-                    "updated": "2024-07-02T18:02:48"
+                    "created": "2024-07-03T16:40:22",
+                    "updated": "2024-07-03T16:40:22"
                 }
             },
             "additional_path": "dev"
@@ -4617,8 +4617,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:49",
-                    "updated": "2024-07-02T18:02:49"
+                    "created": "2024-07-03T16:40:23",
+                    "updated": "2024-07-03T16:40:23"
                 },
                 "thumbnail": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-12-01/anomaly_cdays_temp_max_NO_mun_month_20221201_20221231.png",
@@ -4626,8 +4626,8 @@
                     "roles": [
                         "thumbnail"
                     ],
-                    "created": "2024-07-02T18:02:50",
-                    "updated": "2024-07-02T18:02:50"
+                    "created": "2024-07-03T16:40:23",
+                    "updated": "2024-07-03T16:40:23"
                 },
                 "shapefile": {
                     "href": "dev/data/climate_indicators/era5land/anomaly_era5land/anomaly_cdays_temp_NO_mun_month/shapefiles/2022-12-01/anomaly_cdays_temp_max_NO_mun_month_20221201_20221231.zip",
@@ -4635,8 +4635,8 @@
                     "roles": [
                         "data"
                     ],
-                    "created": "2024-07-02T18:02:50",
-                    "updated": "2024-07-02T18:02:50"
+                    "created": "2024-07-03T16:40:23",
+                    "updated": "2024-07-03T16:40:23"
                 }
             },
             "additional_path": "dev"
